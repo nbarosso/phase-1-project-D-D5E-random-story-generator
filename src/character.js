@@ -19,3 +19,16 @@ async function getRandomData(url) {
         return null;
     }
 }
+
+// Get random items from list
+function getRandomItems(data, maxItems) {
+    const randomItems = [];
+    while (randomItems.length < maxItems && randomItems.length < data.length) {
+        const randomIndex = Math.floor(Math.random() * data.length);
+        const randomItem = data[randomIndex].name;
+        if (!randomItems.includes(randomItem)) {
+            randomItems.push(randomItem);
+        }
+    }
+    return randomItems;
+}
