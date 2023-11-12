@@ -4,7 +4,7 @@ body {
     line-height: 2rem;
     font-size: 1.5rem;
     color: #fff;
-    
+
 }.container {
     max-width: 900px;
     margin: 0 auto;
@@ -45,3 +45,19 @@ nav a:hover {
     color: #930C10;
     text-shadow: 0 0 1px #930C10;
 }
+
+#landingSection {
+    display: block;
+    text-align: center;
+    padding: 3rem;
+}
+
+#landingSection a{
+    cursor: pointer;
+    color: #fff;
+}
+
+#landingSection a:hover{
+    color: #930C10;
+}
+
