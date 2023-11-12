@@ -149,3 +149,40 @@ button {
 .randomiseButton:hover {
     background-color: #0056b3;
 }
+
+#searchButton {
+    background-color: #fff;
+}
+
+#searchButton:hover {
+    background-color: #930C10;
+}
+
+#saveCharacterButton.ticked {
+    background-color: #4CAF50;
+    color: white;
+    cursor: not-allowed;
+    transition: none;
+}
+
+#categorySelect {
+    font-size: 1.2rem;
+}
+
+#searchInput {
+    width: 60%;
+}
+
+#searchResults {
+    max-height: 200px;
+    overflow-y: auto;
+    border: 0.1rem solid #ccc;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+#selectedInfo {
+    margin-top: 2rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
