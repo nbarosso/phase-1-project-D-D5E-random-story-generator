@@ -9,13 +9,39 @@
 </head>
 
 <body>
-        <nav>
-            <ul>
-                <li><a href="#" id="landingLink">Home</a></li>
-                <li><a href="#" id="characterLink">Generate Hero</a></li>
-                <li><a href="#" id="savedLink">Saved Heroes</a></li>
-                <li><a href="#" id="searchLink">Search Database</a></li>
-            </ul>
-        </nav>
+    <nav>
+        <ul>
+            <li><a href="#" id="landingLink">Home</a></li>
+            <li><a href="#" id="characterLink">Generate Hero</a></li>
+            <li><a href="#" id="savedLink">Saved Heroes</a></li>
+            <li><a href="#" id="searchLink">Search Database</a></li>
+        </ul>
+    </nav>
 
-</body>
+    <main>
+        <section id="landingSection">
+            <h2> <u>D&D5E Hero Story Generator</u></h2>
+        </section>
+
+        <div class="container">
+            <section id="characterSection">
+                <h2 class="title">Generate a Hero</h2>
+                <div>
+                    <label for="characterName">Enter Hero Name:</label>
+                    <input type="text" id="characterName" />
+                    <button id="generateButton">Roll for initiative!</button>
+                    <div id="generateButtonText"></div>
+                </div>
+                <div>
+                    <h2 class="secondaryTitle">Generated Hero:</h2>
+                    <div id="generatedCharacter"></div>
+                    <button id="saveCharacterButton">Save Hero</button>
+                </div>
+            </section>
+
+            <section id="savedCharacters">
+                <h2 class="title">Saved Characters</h2>
+                <ul id="savedCharacterList">
+                </ul>
+            </section>
+        </body>            
