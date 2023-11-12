@@ -32,3 +32,7 @@ function getRandomItems(data, maxItems) {
     }
     return randomItems;
 }
+
+// Random data variables with let
+let randomRaceData, randomClassData, randomSkillsData, randomEquipmentData, randomAlignmentData, randomLanguageData, randomProficiencyData, randomAbilityScoreData;
+
