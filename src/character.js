@@ -36,3 +36,18 @@ function getRandomItems(data, maxItems) {
 // Random data variables with let
 let randomRaceData, randomClassData, randomSkillsData, randomEquipmentData, randomAlignmentData, randomLanguageData, randomProficiencyData, randomAbilityScoreData;
 
+// async func to fetch data from all places simultaneously
+async function fetchData() {
+    try {
+        // Use Promise.all to fetch data from multiple endpoints simultaneously
+        const fetchPromises = [
+            getRandomData('https://www.dnd5eapi.co/api/races'),
+            getRandomData('https://www.dnd5eapi.co/api/classes'),
+            getRandomData('https://www.dnd5eapi.co/api/skills'),
+            getRandomData('https://www.dnd5eapi.co/api/equipment'),
+            getRandomData('https://www.dnd5eapi.co/api/alignments'),
+            getRandomData('https://www.dnd5eapi.co/api/languages'),
+            getRandomData('https://www.dnd5eapi.co/api/proficiencies'),
+            getRandomData('https://www.dnd5eapi.co/api/ability-scores')
+        ];
+        
