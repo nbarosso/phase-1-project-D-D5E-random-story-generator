@@ -139,5 +139,5 @@ Because the project only used HTML, CSS, and JavaScript as well as asynchronous 
 
 ## Acknowledgments
 
-Just wanted to expressly thank the team at the open Dungeons and Dragons 5e API - hhtp://www.dnd5eapi.co
+Just wanted to expressly thank the team at the open Dungeons and Dragons 5e API - http://www.dnd5eapi.co
 Without their help and thorough documentation this would not have been even remotely possible.
