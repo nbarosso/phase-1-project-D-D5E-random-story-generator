@@ -4,4 +4,44 @@ body {
     line-height: 2rem;
     font-size: 1.5rem;
     color: #fff;
+    
+}.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+section {
+    display: none;
+    margin: 2rem;
+    height: 100vh;
+
+}
+
+nav {
+    background-color: #5e5a5a;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 1rem;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+nav a:hover {
+    color: #930C10;
+    text-shadow: 0 0 1px #930C10;
 }
