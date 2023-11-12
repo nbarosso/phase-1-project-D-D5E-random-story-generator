@@ -68,3 +68,33 @@ button {
     font-weight: bold;
     text-transform: uppercase;
 }
+
+.title {
+    font-size: 2.4rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.secondaryTitle {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    color: #930C10;
+    font-size: 2.4rem;
+    
+}
+
+p {
+    color: #fff;
+    font-size: 1.6rem; 
+}
+
+label {
+    font-weight: bold;
+    color: #fff;
+    border-radius: 5rem;
+}
