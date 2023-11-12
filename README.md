@@ -125,3 +125,19 @@ of you:
 
 --------------------------------------------------------------------------------------------------------------
 
+## Welcome to my Phase-1 Project!
+
+I used the D&D 5th Edition API to make this character generator with the hopes of eventually creating a small "choose your own adventure" game out of it. Currently it is able to display a rudimentary character sheet that you can randomize to fill out a character (or hero, as I will eventually use for the story generator) sheet. The character sheet contains everything a budding adventurer would need to embark on a classic Dungeons and Dragons adventure.
+
+As it stands there is functionality to save a character you like, as well as re-roll any of the randomized fields that you are not particularly fond of. I have also tagged on a search bar that displays information from the API directly on the page for quick searches if you need a refresher of some of the elements of D&D.
+
+Eventually this project will be the base for a custom, random story generator. The idea being that you use the randomized hero that you rolled up to adventure through a few partially random storylines culminating in an epic battle just like you do in the table-top.
+
+## How To Run
+
+Because the project only used HTML, CSS, and JavaScript as well as asynchronous functions to get/post to the API, the only thing the user needs to to is fork this repository, clone it, and then launch the HTML file in the repo. I intend to eventually utilize github.io to host the HTML file through github for even easier usage.
+
+## Acknowledgments
+
+Just wanted to expressly thank the team at the open Dungeons and Dragons 5e API - hhtp://www.dnd5eapi.co
+Without their help and thorough documentation this would not have been even remotely possible.
