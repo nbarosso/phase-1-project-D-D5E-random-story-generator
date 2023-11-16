@@ -107,7 +107,7 @@ button {
 
 #generateButton {
     border: none;
-    background-color: #007bff;
+    background-color: #ffbb00;
     color: #fff;
     transition: transform 0.2s ease;
     border-radius: 80%;
@@ -136,7 +136,7 @@ button {
 }
 
 .randomiseButton {
-    background-color: #007bff;
+    background-color: #ffbb00;
     color: #fff;
     border: none;
     padding: 0.5rem 1rem;
@@ -147,7 +147,7 @@ button {
 }
 
 .randomiseButton:hover {
-    background-color: #0056b3;
+    background-color: #ffbb00a1;
 }
 
 #searchButton {
