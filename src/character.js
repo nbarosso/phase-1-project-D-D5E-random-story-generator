@@ -4,7 +4,7 @@
 // Limiter on certain attributes to make sense through the game
 const numRandomSkills = Math.floor(Math.random() * 4) + 2
 const maxRandomLanguages = Math.floor(Math.random() * 2) + 1
-const maxRandomProficiencies = 6;
+const maxRandomProficiencies = 4;
 const maxRandomEquipment = 3;
 
 // Async function to fetch data from the API
@@ -36,10 +36,8 @@ function getRandomItems(data, maxItems) {
 // Random data variables with let
 let randomRaceData, randomClassData, randomSkillsData, randomEquipmentData, randomAlignmentData, randomLanguageData, randomProficiencyData, randomAbilityScoreData;
 
-// async func to fetch data from all places simultaneously
 async function fetchData() {
     try {
-        // Use Promise.all to fetch data from multiple endpoints simultaneously
         const fetchPromises = [
             getRandomData('https://www.dnd5eapi.co/api/races'),
             getRandomData('https://www.dnd5eapi.co/api/classes'),
@@ -96,7 +94,7 @@ async function generateRandomCharacter() {
         return scores;
     }, {});
     const randomLevel = Math.floor(Math.random() * 5) + 1;
-    const randomHitPoints = 15 + randomLevel * (Math.floor(Math.random() * 8) + 4);
+    const randomHitPoints = 10 + randomLevel * (Math.floor(Math.random() * 8) + 4);
 
     // Generate character info HTML
     const generatedCharacterInfo = `
